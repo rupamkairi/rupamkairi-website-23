@@ -1,7 +1,7 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <NuxtPage />
 </template>
 
-<script setup></script>
+<script setup>
+import "./assets/css/custom.css";
+</script>

@@ -9,6 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ["Skia", "sans", "sans-serif"],
+      line: ["Sketchup", "Skia", "sans", "sans-serif"],
+      hand: ["Arthemis", "Marker Felt", "cursive"],
+      mono: ["", "OperatorMono Nerd Font", "OperatorMono", "monospace"],
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {

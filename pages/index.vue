@@ -1,13 +1,12 @@
-<template>
-  <div>
-    <p class="text-4xl font-black">Index</p>
-  </div>
-</template>
+<script setup></script>
 
-<script>
-export default {
-  setup() {
-    return {};
-  },
-};
-</script>
+<template>
+  <NuxtLayout name="default">
+    <div>
+      <Title>Rupam Kairi | Full Stack Web Developer</Title>
+      <HomeHeroSection />
+      <TechsUsing />
+      <TechStacks />
+    </div>
+  </NuxtLayout>
+</template>
