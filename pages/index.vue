@@ -6,7 +6,10 @@
       <Title>Rupam Kairi | Full Stack Web Developer</Title>
       <HomeHeroSection />
       <TechsUsing />
-      <TechStacks />
+      <!-- <TechStacks /> -->
+      <ProjectsDone />
+      <Contact />
+      <BottomFooter />
     </div>
   </NuxtLayout>
 </template>

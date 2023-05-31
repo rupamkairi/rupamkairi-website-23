@@ -2,3 +2,50 @@
 
 .hero {
 }
+
+.isometric {
+  transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
+}
+
+.scroll-parent {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.scroll-child {
+  position: absolute;
+  transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
+}
+
+.scroll-child-elements {
+}
+
+.primary {
+  animation: primary 5s linear infinite;
+}
+
+.secondary {
+  animation: secondary 5s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+    bottom: 0%;
+  }
+  to {
+    left: -100%;
+    bottom: -110%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+    bottom: 110%;
+  }
+  to {
+    left: 0%;
+    bottom: 0%;
+  }
+}

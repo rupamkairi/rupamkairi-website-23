@@ -2,6 +2,7 @@
 let overlayButton = ref(true);
 let overlayBackground = ref(true);
 let overlayRemove = ref(false);
+
 onMounted(() => {
   setTimeout(() => {
     overlayRemove.value = true;
@@ -15,24 +16,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-80">
-    <div class="w-full h-full relative">
-      <div class="h-full">
-        <div class="h-full grid grid-rows-2">
-          <div class="grid grid-cols-2 md:grid-cols-3 self-center text-center">
-            <div class="text-4xl font-black">React</div>
-            <div class="text-4xl font-black">Vue</div>
-            <div class="text-4xl font-black">Svelte</div>
-          </div>
-          <div class="grid grid-cols-2 md:grid-cols-3 self-center text-center">
-            <div class="text-4xl font-black">Express</div>
-            <div class="text-4xl font-black">Adonis</div>
-          </div>
-        </div>
+  <div class="h-80 md:h-[60vh] xl:h-[40vh] 2xl:h-[40vh]">
+    <div class="w-full h-full relative container mx-auto my-16">
+      <div class="h-full w-full">
+        <MovingTechCard />
       </div>
       <div
         v-if="overlayBackground"
-        class="absolute inset-0 bg-gradient-to-b from-transparent via-violet-100 to-transparent transition-all"
+        class="absolute inset-0 bg-gradient-to-b from-transparent via-violet-200 dark:via-violet-900 to-transparent transition-all"
         :class="[overlayRemove ? 'opacity-0 duration-500' : 'opacity-50']"
       ></div>
       <div

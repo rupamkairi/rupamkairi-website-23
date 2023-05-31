@@ -16,7 +16,7 @@
           </h2>
           <h3>
             <span class="block text-2xl font-hand leading-8 tracking-wide">
-              Developer - Experimentalist - Quick Response
+              Experimentalist - Lerner - Adaptable
             </span>
           </h3>
         </div>
