@@ -1,9 +1,12 @@
 <template>
+  <Title>Rupam Kairi | Full Stack Web Developer</Title>
   <div class="">
-    <div class="border">
+    <div class="min-h-screen border">
       <TopNavigationBar />
-      <slot></slot>
-      <div class="float-right text-sm font-mono">layouts/default</div>
+      <div>
+        <slot></slot>
+      </div>
+      <BottomFooter />
     </div>
   </div>
 </template>

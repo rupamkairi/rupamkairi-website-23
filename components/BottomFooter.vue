@@ -1,4 +1,4 @@
-<script></script>
+<script setup></script>
 
 <template>
   <div class="container mx-auto p-2">
@@ -6,7 +6,10 @@
       <div class="flex justify-between flex-wrap">
         <div>
           <div>Rupam Kairi</div>
-          <div>github twitter</div>
+          <div class="flex gap-2">
+            <NuxtLink :href="links.github"> Github </NuxtLink>
+            <NuxtLink :href="links.twitter"> Twitter </NuxtLink>
+          </div>
         </div>
         <div>
           <div>Privacy Policies</div>

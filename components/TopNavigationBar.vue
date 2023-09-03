@@ -1,10 +1,12 @@
+<script setup></script>
+
 <template>
   <div class="">
     <div class="container mx-auto border border-slate-300">
       <div class="flex justify-between flex-wrap">
         <div>
           <div class="text-2xl font-line px-4 py-2 border-r border-slate-300">
-            Home
+            <NuxtLink :href="routes.home"> Home </NuxtLink>
           </div>
         </div>
         <div
@@ -13,16 +15,16 @@
           <div
             class="text-2xl font-line px-4 py-2 border-l-0 sm:border-l border-slate-300"
           >
-            Blogs
+            <NuxtLink :href="routes.blogs"> Blogs </NuxtLink>
           </div>
           <div class="text-2xl font-line px-4 py-2 border-l border-slate-300">
-            Techs
+            . . .
           </div>
           <div class="text-2xl font-line px-4 py-2 border-l border-slate-300">
-            Tutorials
+            . . .
           </div>
           <div class="text-2xl font-line px-4 py-2 border-l border-slate-300">
-            Courses
+            . . .
           </div>
         </div>
       </div>

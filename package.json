@@ -2,11 +2,12 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "nuxt build",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "clean": "nuxt cleanup"
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",

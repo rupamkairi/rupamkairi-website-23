@@ -1,4 +1,16 @@
-<script></script>
+<script>
+export default {
+  setup() {
+    const handleFormSubmit = (e) => {
+      e.preventDefault();
+
+      console.log("Hello");
+    };
+
+    return { handleFormSubmit };
+  },
+};
+</script>
 
 <template>
   <div class="container mx-auto p-2">
@@ -6,7 +18,7 @@
       <NeuButton label="Contact Me" smallLabel="Contact Me" />
     </div>
     <div class="mb-8">
-      <form action="" class="max-w-screen-sm mx-auto">
+      <form class="max-w-screen-sm mx-auto" @submit="handleFormSubmit">
         <div class="w-full mb-8">
           <div class="mb-8">
             <label for="name" class="block mb-2 font-bold text-violet-500"
@@ -50,6 +62,13 @@
               class="w-full py-2 px-4 outline-none"
             />
           </NeuFormInput>
+        </div>
+        <div class="text-center mb-16">
+          <NeuButton
+            type="submit"
+            label="Send Message"
+            smallLabel="Send Message"
+          />
         </div>
       </form>
     </div>

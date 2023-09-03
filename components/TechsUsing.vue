@@ -32,7 +32,7 @@ onMounted(() => {
         :class="{ 'opacity-0 duration-500': overlayRemove }"
       >
         <div class="">
-          <NeuButton />
+          <NeuButton label="Techs I am Using" smallLabel="My Techs" />
         </div>
       </div>
     </div>
