@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "build": "nuxt build",
     "preview": "nuxt preview",
     "generate": "nuxt generate",
@@ -16,6 +16,6 @@
     "nuxt": "^3.3.3"
   },
   "dependencies": {
-    "daisyui": "^2.51.5"
+    "daisyui": "^3.9.2"
   }
 }
