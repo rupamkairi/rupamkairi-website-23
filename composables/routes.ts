@@ -1,6 +1,11 @@
 export const routes = {
   home: "/",
   blogs: "/blogs",
+  about: "/about",
+
+  terms: "/terms",
+  privacyPolicies: "/privacy-policies",
+  refundPolicies: "/refund-policies",
 };
 
 export const links = {

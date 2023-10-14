@@ -5,19 +5,23 @@
     <div class="mb-8">
       <div class="flex justify-between flex-wrap">
         <div>
-          <div>Rupam Kairi</div>
-          <div class="flex gap-2">
-            <NuxtLink :href="links.github"> Github </NuxtLink>
-            <NuxtLink :href="links.twitter"> Twitter </NuxtLink>
+          <div class="flex flex-col">
+            <div class="flex gap-2">
+              <NuxtLink :href="links.github"> Github </NuxtLink>
+              <NuxtLink :href="links.twitter"> Twitter </NuxtLink>
+            </div>
+            <NuxtLink :href="routes.about"> About </NuxtLink>
           </div>
         </div>
         <div>
-          <div>Privacy Policies</div>
-          <div>Refund Policies</div>
-          <div>About</div>
+          <div class="flex flex-col">
+            <NuxtLink :href="routes.terms">Terms & Conditions</NuxtLink>
+            <NuxtLink :href="routes.privacyPolicies">Privacy Policies</NuxtLink>
+            <NuxtLink :href="routes.refundPolicies">Refund Policies</NuxtLink>
+          </div>
         </div>
       </div>
-      <div class="text-center">Rupam Kairi, @ 2023</div>
+      <div class="text-sm text-center">Copyright © 2023 Rupam Kairi</div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <Title>Rupam Kairi | Blogs</Title>
+  <Title>Rupam Kairi | Full Stack Web Developer</Title>
   <div>
     <div class="min-h-screen border">
       <TopNavigationBar />

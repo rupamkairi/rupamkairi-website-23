@@ -1,6 +1,6 @@
 <template>
   <Title>Rupam Kairi | Full Stack Web Developer</Title>
-  <div class="">
+  <div>
     <div class="min-h-screen border">
       <TopNavigationBar />
       <div>

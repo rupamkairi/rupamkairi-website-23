@@ -1,6 +1,7 @@
 <script setup>
 const route = useRoute();
 const params = "blogs/" + route.params.slug;
+console.log(params, "-> params");
 </script>
 
 <template>

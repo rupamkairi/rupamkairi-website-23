@@ -1,0 +1,3 @@
+# Refund Policy
+
+Terms Page.
