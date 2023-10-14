@@ -17,8 +17,8 @@ onMounted(() => {
 
 <template>
   <div class="h-80 md:h-[60vh] xl:h-[40vh] 2xl:h-[40vh]">
-    <div class="w-full h-full relative container mx-auto my-16">
-      <div class="h-full w-full">
+    <div class="w-full h-full relative my-16">
+      <div class="h-full container mx-auto">
         <MovingTechCard />
       </div>
       <div

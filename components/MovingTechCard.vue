@@ -7,19 +7,21 @@ const techs1 = [
   { label: "Nuxt", logo: "/logos/nuxt.svg" },
 ];
 const techs2 = [
-  { label: "Adonis", logo: "/logos/adonis.svg" },
+  { label: "Node", logo: "/logos/node.svg" },
   { label: "Express", logo: "/logos/express.svg" },
+  { label: "Adonis", logo: "/logos/adonis.svg" },
   { label: "SocketIO", logo: "/logos/socketio.svg" },
-  { label: "Firebase", logo: "/logos/firebase.svg" },
-  { label: "Docker", logo: "/logos/docker.svg" },
+  { label: "Mongodb", logo: "/logos/mongodb.svg" },
+  { label: "MySQL", logo: "/logos/mysql.svg" },
 ];
 const techs3 = [
   { label: "TypeScript", logo: "/logos/typescript.svg" },
-  { label: "Mongodb", logo: "/logos/mongodb.svg" },
-  { label: "MySQL", logo: "/logos/mysql.svg" },
   { label: "WebSocket", logo: "/logos/websocket.svg" },
   { label: "Git", logo: "/logos/git.svg" },
+  { label: "Docker", logo: "/logos/docker.svg" },
+  { label: "Firebase", logo: "/logos/firebase.svg" },
 ];
+const techs4 = [];
 </script>
 
 <template>
@@ -45,14 +47,14 @@ const techs3 = [
         </NeuIsometricBox>
       </div>
     </div>
-    <!-- <div class="flex justify-center flex-nowrap isometric">
-      <div v-for="el in Array(12)">
+    <div class="flex justify-center flex-nowrap isometric">
+      <div v-for="el in techs4">
         <NeuIsometricBox>
-          <img src="/logos/nuxt.svg" alt="" />
+          <img :src="el.logo" :alt="el.label" />
         </NeuIsometricBox>
       </div>
     </div>
-    <div class="flex justify-center flex-nowrap isometric">
+    <!-- <div class="flex justify-center flex-nowrap isometric">
       <div v-for="el in Array(12)">
         <NeuIsometricBox>
           <img src="/logos/nuxt.svg" alt="" />
