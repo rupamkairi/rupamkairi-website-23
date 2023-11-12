@@ -2,7 +2,7 @@
 
 <template>
   <NuxtLayout name="blogs">
-    <h1 class="text-4xl font-bold">Welcome to Blogs</h1>
+    <h1 class="text-6xl font-line"><u>Blogs</u></h1>
     <ContentNavigation />
   </NuxtLayout>
 </template>

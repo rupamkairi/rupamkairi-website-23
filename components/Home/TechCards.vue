@@ -28,7 +28,7 @@ const techs4 = [];
 <template>
   <div class="h-full overflow-hidden">
     <div class="isometric">
-      <div class="flex justify-center flex-nowrap -translate-x-24">
+      <div class="flex justify-center flex-nowrap -translate-x-[8rem]">
         <div v-for="el in techs1">
           <NeuDesignsNeuIsometricBox>
             <img :src="el.logo" :alt="el.label" />
@@ -46,7 +46,7 @@ const techs4 = [];
       </div>
     </div>
     <div class="isometric">
-      <div class="flex justify-center flex-nowrap translate-x-[16rem]">
+      <div class="flex justify-center flex-nowrap translate-x-[14rem]">
         <div v-for="el in techs3">
           <NeuDesignsNeuIsometricBox>
             <img :src="el.logo" :alt="el.label" />
