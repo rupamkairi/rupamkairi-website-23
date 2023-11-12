@@ -19,7 +19,7 @@ onMounted(() => {
   <div class="h-80 md:h-[60vh] xl:h-[40vh] 2xl:h-[40vh]">
     <div class="w-full h-full relative my-16">
       <div class="h-full container mx-auto">
-        <MovingTechCard />
+        <HomeTechCards />
       </div>
       <div
         v-if="overlayBackground"
@@ -32,7 +32,7 @@ onMounted(() => {
         :class="{ 'opacity-0 duration-500': overlayRemove }"
       >
         <div class="">
-          <NeuButton label="Techs I am Using" smallLabel="My Techs" />
+          <NeuDesignsNeuButton label="Techs I am Using" smallLabel="My Techs" />
         </div>
       </div>
     </div>

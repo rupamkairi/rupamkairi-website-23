@@ -4,7 +4,7 @@
 }
 
 .isometric {
-  transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
+  transform: rotateX(65deg) rotateY(0deg) rotateZ(-45deg);
 }
 
 .scroll-parent {

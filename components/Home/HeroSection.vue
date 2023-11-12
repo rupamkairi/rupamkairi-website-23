@@ -16,13 +16,13 @@
           </h2>
           <h3>
             <span class="block text-2xl font-hand leading-8 tracking-wide">
-              Experimentalist - Lerner - Adaptable
+              Experimentalist - Adaptable - Learner
             </span>
           </h3>
         </div>
       </div>
       <div class="col-span-2 md:col-span-1">
-        <div class="h-96 border"></div>
+        <div class="h-96"></div>
       </div>
     </div>
   </div>

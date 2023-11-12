@@ -1,5 +1,6 @@
 <script setup>
 const techs1 = [
+  { label: "JavaScript", logo: "/logos/javascript.svg" },
   { label: "Vue", logo: "/logos/vue.svg" },
   { label: "React", logo: "/logos/react.svg" },
   { label: "Next", logo: "/logos/next.svg" },
@@ -26,34 +27,40 @@ const techs4 = [];
 
 <template>
   <div class="h-full overflow-hidden">
-    <div class="flex justify-center flex-nowrap isometric">
-      <div v-for="el in techs1">
-        <NeuIsometricBox>
-          <img :src="el.logo" :alt="el.label" />
-        </NeuIsometricBox>
+    <div class="isometric">
+      <div class="flex justify-center flex-nowrap -translate-x-24">
+        <div v-for="el in techs1">
+          <NeuDesignsNeuIsometricBox>
+            <img :src="el.logo" :alt="el.label" />
+          </NeuDesignsNeuIsometricBox>
+        </div>
       </div>
     </div>
-    <div class="flex justify-center flex-nowrap isometric">
-      <div v-for="el in techs2">
-        <NeuIsometricBox>
-          <img :src="el.logo" :alt="el.label" />
-        </NeuIsometricBox>
+    <div class="isometric">
+      <div class="flex justify-center flex-nowrap">
+        <div v-for="el in techs2">
+          <NeuDesignsNeuIsometricBox>
+            <img :src="el.logo" :alt="el.label" />
+          </NeuDesignsNeuIsometricBox>
+        </div>
       </div>
     </div>
-    <div class="flex justify-center flex-nowrap isometric">
-      <div v-for="el in techs3">
-        <NeuIsometricBox>
-          <img :src="el.logo" :alt="el.label" />
-        </NeuIsometricBox>
+    <div class="isometric">
+      <div class="flex justify-center flex-nowrap translate-x-[16rem]">
+        <div v-for="el in techs3">
+          <NeuDesignsNeuIsometricBox>
+            <img :src="el.logo" :alt="el.label" />
+          </NeuDesignsNeuIsometricBox>
+        </div>
       </div>
     </div>
-    <div class="flex justify-center flex-nowrap isometric">
+    <!-- <div class="flex justify-center flex-nowrap isometric">
       <div v-for="el in techs4">
-        <NeuIsometricBox>
+        <NeuDesignsNeuIsometricBox>
           <img :src="el.logo" :alt="el.label" />
-        </NeuIsometricBox>
+        </NeuDesignsNeuIsometricBox>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="flex justify-center flex-nowrap isometric">
       <div v-for="el in Array(12)">
         <NeuIsometricBox>

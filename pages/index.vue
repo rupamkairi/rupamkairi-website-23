@@ -4,9 +4,8 @@
   <NuxtLayout name="default">
     <div>
       <HomeHeroSection />
-      <TechsUsing />
-      <!-- <TechStacks /> -->
-      <ProjectsDone />
+      <HomeTechsUsing />
+      <HomeProjects />
       <Contact />
     </div>
   </NuxtLayout>
