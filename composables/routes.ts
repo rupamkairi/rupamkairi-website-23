@@ -4,8 +4,8 @@ export const routes = {
   about: "/about",
 
   terms: "/terms",
-  privacyPolicies: "/privacy-policies",
-  refundPolicies: "/refund-policies",
+  privacyPolicy: "/privacy-policy",
+  refundPolicy: "/refund-policy",
 };
 
 export const links = {

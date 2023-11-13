@@ -16,8 +16,8 @@
         <div>
           <div class="flex flex-col">
             <NuxtLink :href="routes.terms">Terms & Conditions</NuxtLink>
-            <NuxtLink :href="routes.privacyPolicies">Privacy Policies</NuxtLink>
-            <NuxtLink :href="routes.refundPolicies">Refund Policies</NuxtLink>
+            <NuxtLink :href="routes.privacyPolicy">Privacy Policy</NuxtLink>
+            <NuxtLink :href="routes.refundPolicy">Refund Policy</NuxtLink>
           </div>
         </div>
       </div>

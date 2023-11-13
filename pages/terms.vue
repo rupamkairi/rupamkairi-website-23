@@ -4,7 +4,7 @@ const { data } = await useAsyncData(() => queryContent("/").findOne());
 
 <template>
   <NuxtLayout name="legal">
-    <ContentDoc class="prose">
+    <ContentDoc class="prose mx-auto">
       <template #not-found>Not Found</template>
       <template #empty>Empty</template>
     </ContentDoc>
