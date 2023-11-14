@@ -14,3 +14,7 @@
   font-family: "Sketchup";
   src: url("../fonts/sketchup-font/SketchupFreeTrial-gxmj5.otf");
 }
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-font/SpaceGrotesk-VariableFont_wght.ttf");
+}

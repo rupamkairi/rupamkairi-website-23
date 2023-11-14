@@ -15,7 +15,7 @@
             Full Stack Web Developer
           </h2>
           <h3>
-            <span class="block text-2xl font-hand leading-8 tracking-wide">
+            <span class="block text-2xl leading-8 tracking-wide">
               Experimentalist - Adaptable - Learner
             </span>
           </h3>

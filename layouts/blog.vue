@@ -1,3 +1,19 @@
+<script setup lang="ts">
+const route = useRoute();
+const params = "/blogs/" + route.params.slug;
+
+const currentContentHead = await queryContent(params).findOne();
+let { categories } = currentContentHead;
+categories = categories.split(" ");
+
+const relatedContents = await queryContent("blogs")
+  .where({
+    categories: { $containsAny: categories },
+    _path: { $ne: params },
+  })
+  .find();
+</script>
+
 <template>
   <div>
     <div class="min-h-screen">
@@ -11,10 +27,29 @@
                 <slot></slot>
               </div>
             </div>
-            <div class="col-span-3 lg:col-span-1">Related</div>
+            <div class="col-span-3 lg:col-span-1">
+              <h1 class="text-2xl font-black">Related</h1>
+              <div v-for="blog in relatedContents">
+                <div>
+                  <NuxtLink :href="blog._path">{{ blog.title }}</NuxtLink>
+                </div>
+              </div>
+              <!-- <pre>{{
+                JSON.stringify(
+                  {
+                    related_blogs_count: relatedContents.length,
+                    blogs: relatedContents,
+                  },
+                  null,
+                  2
+                )
+              }}</pre> -->
+            </div>
           </div>
         </div>
       </div>
+      <div class="my-32"></div>
+
       <BottomFooter />
     </div>
   </div>

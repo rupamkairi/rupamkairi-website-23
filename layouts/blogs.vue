@@ -8,6 +8,8 @@
           <slot></slot>
         </div>
       </div>
+      <div class="my-32"></div>
+
       <BottomFooter />
     </div>
   </div>

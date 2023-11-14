@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Skia", "sans", "sans-serif"],
+      sans: ["Space Grotesk", "Skia", "sans", "sans-serif"],
       line: ["Sketchup", "Skia", "sans", "sans-serif"],
       hand: ["Arthemis", "Marker Felt", "cursive"],
       mono: ["", "OperatorMono Nerd Font", "OperatorMono", "monospace"],

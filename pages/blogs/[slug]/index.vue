@@ -1,7 +1,6 @@
-<script setup>
+<script setup lang="ts">
 const route = useRoute();
-const params = "blogs/" + route.params.slug;
-console.log(params, "-> params");
+const params = "/blogs/" + route.params.slug;
 </script>
 
 <template>
